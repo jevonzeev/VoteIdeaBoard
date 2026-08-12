@@ -1,0 +1,14 @@
+[project]
+name = "voteideaboard"
+version = "0.1.0"
+description = "Internal feature voting board for team idea prioritization"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.0.6",
+    "djangorestframework>=3.17.1",
+    "python-dotenv>=1.2.2",
+    "celery>=5.4.0",
+    "redis>=5.2.1",
+    "psycopg2-binary>=2.9.10",
+]

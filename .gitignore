@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+cookies.txt
+node_modules/
+frontend/dist/
+.DS_Store
+celerybeat-schedule
